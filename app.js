@@ -6,16 +6,10 @@ const completedTasksHolder = document.getElementById('completed-tasks');
 const createNewTaskElement = function (taskString) {
   const listItem = document.createElement('li');
 
-  //input (checkbox)
   const checkBox = document.createElement('input');
-  //label
   const label = document.createElement('label');
-  //input (text)
   const editInput = document.createElement('input');
-  //button.edit
   const editButton = document.createElement('button');
-
-  //button.delete
   const deleteButton = document.createElement('button');
   const deleteButtonImg = document.createElement('img');
 
